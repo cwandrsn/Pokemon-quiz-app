@@ -10,7 +10,7 @@ body {
 main {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("https://airwallpaper.com/wp-content/uploads/images2/Cure-Pikachu-Pokemon-Backgrounds.jpg");
+  background-image: url(images/Pika.jpg);
   height: 675px;
   width: 85%;
   margin: auto;
@@ -68,12 +68,28 @@ button:hover {
   font-weight: bold;
 }
 
-
-
 ul {
   list-style-type: none;
 }
 
 .seperateCont {
   margin-top: 15px;
+}
+
+.centerText {
+  font-weight: bold;
+  text-align: center;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+}
+
+.large {
+  font-size: 25px;
 }
