@@ -1,72 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-	  <title>PokeQuiz</title>
-	  <meta name="description" type="A quiz all about the world and workings of Pokemon">
-	  <link rel="stylesheet" href="main.css">
-  </head>
+<head>
+  <title>PokeQuiz</title>
+  <meta name="description" type="A quiz all about the world and workings of Pokemon">
+  <link rel="stylesheet" href="main.css">
+</head>
 
-  <body>
-	  <main role="container">
-		  <header>
-			  <h1>What do you know about the world of Pokemon?</h1>
-			  <section role="counters">
-				  <div class="counters">
-					  <ul>
-						  <li class="questionCounter">
-							  Question: Example
-						  </li>
-						  <li class="scoreCounter">
-							  Score: Example
-						  </li>
-					  </ul>
-				  </div>
-			  </section>
-		  </header>
-		  <section role="questions">
-<<<<<<< HEAD
-			  <div class="centerText container">
-          <p>This is a Quiz to test your knowledge on the world of Pokemon.<br></br> Do you have what it takes to be a Pokemon master?</p>
+<body>
+  <main role="container">
+    <header>
+      <h1>What do you know about the world of Pokemon?</h1>
+      <section role="counters">
+        <div class="counters">
+          <ul>
+            <li role="questionCounter">
+              Question: <span class="questionCounter">0</span>/5
+            </li>
+            <li role="scoreCounter">
+              Score: <span class="scoreCounter">0</span>
+            </li>
+          </ul>
         </div>
+      </section>
+    </header>
+    <section role="questions">
+      <div role="main" class="centerText container startQuiz">
+        <p class="">This is a Quiz to test your knowledge on the world of Pokemon.<br></br> Do you have what it takes to be a Pokemon master?</p>
+        <p class="quizQuestion"></p>
+      </div>
+      <div class="centerText container seperateCont questionDisplay"></div>
+      <div class="centerText container choiceDisplay"></div>
+      <div class="centerText container feedbackDisplay"></div>
+      <div class="centerText container resultsDislay"></div>
+    </section>
+    <section role="quizButton">
+      <button type="button" class="startButton" id="startButton">Start Quiz</button>
+    </section>
+  </main>
 
-		  </section>
-		  <section role="beginQuiz">
-			  <button type="button"><a href="main.html">Start Quiz</a></button>
-      </section>
-    </main>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
-=======
-			  <div class="container">
-          <p class="question">What is the first region you experience in Pokemon?</p>
-        </div>
-        <div class="container seperateCont">
-          <form for="answers">
-            <ul>
-              <li>
-                <input type="radio">Hoenn</input>
-              </li>
-              <li>
-                <input type="radio">Kanto</input>
-              </li>
-              <li>
-                <input type="radio">Johto</input>
-              </li>
-              <li>
-                <input type="radio">Galar</input>
-              </li>
-              <li>
-                <input type="radio">Kalos</input>
-              </li>
-            </ul>
-          </form
-        </div>
-		  </section>
-		  <section role="beginQuiz">
-			  <button type="button">Start quiz</button>
-      </section>
-    </main>
-  </body>
-</html>
->>>>>>> 6fc44e7b62063066156eecdece9eb79cab9011b5
